@@ -1,0 +1,71 @@
+/* Base styles */
+
+// table {
+//     border-collapse: collapse;
+//     width: 100%;
+// }
+
+
+/* Button styles */
+
+
+.remove-btn {
+    background: red;
+    color: #fff;
+    border: none;
+}
+
+/* Add row functionality */
+
+.add-row {
+    display: none;
+}
+
+.show-add-row {
+    display: table-row;
+}
+
+/* Excel-like styling */
+
+.outerBox{
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    .addBtn{
+        margin-top: 10px;
+        padding: 10px;
+        background: #ffffff;
+        color: #000;
+        width: 170px;
+        font-weight: 700;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        tr{
+            text-align: left;
+            text-transform: uppercase;
+            th{
+
+            }
+        }
+
+    }   
+}
+.pricewrap{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    vertical-align: middle;
+}
+.headersection
+{
+    .logo{
+        text-align: center;
+        font-size: 30px;
+        margin: 30px 0;
+        font-family: sans-serif;
+    }
+}

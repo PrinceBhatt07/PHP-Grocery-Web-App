@@ -1,0 +1,109 @@
+
+/* header + Banner */
+
+
+
+/* Base styles */
+/* Button styles */
+.remove-btn {
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius : 3px;
+    padding : 0 5px;
+    position: relative;
+    cursor: pointer;
+  }
+  .remove-btn:after{
+    content : '';
+    background-color: #00000013;
+    position: absolute;
+    width : 0px;
+    height: 100%;
+    left : 0;
+    top : 0;
+  }
+  .remove-btn:hover.remove-btn:after{
+    width : 100%;
+    transition:  all 0.4s ease-in-out;
+  }
+  
+  /* add BTN  */
+  
+  
+  
+  /* Add row functionality */
+  .add-row {
+    display: none;
+  }
+  
+  .show-add-row {
+    display: table-row;
+  }
+  
+  /* Excel-like styling */
+  .outerBox {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+  }
+  .outerBox .addBtn {
+    background: #9ccd36;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 10px;
+    width: 170px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+  }
+  .addBtn:after{
+    content : '';
+    background-color: #00000013;
+    position: absolute;
+    width : 0px;
+    height: 100%;
+    left : 0;
+    top : 0;
+  }
+  .addBtn:hover.addBtn:after{
+    width : 100%;
+    transition:  all 0.4s ease-in-out;
+  }
+  .outerBox table {
+    width: 100%;
+    border : 1px solid #000;
+  }
+  .outerBox table tr th,
+  .outerBox table tr td{
+    border : 1px solid #ccc;
+    text-align: left;
+    text-transform: uppercase;
+    padding : 2px;
+  }
+  .outerBox table thead tr th{
+    background-color: yellowgreen;
+  }
+  .pricewrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    vertical-align: middle;
+  }
+  
+  .headersection .logo {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  
+  input{
+    width : 100%;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
